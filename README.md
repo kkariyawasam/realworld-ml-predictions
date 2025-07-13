@@ -1,26 +1,61 @@
-# Predict Crime Rate in Chicago
+Predictive Analytics Projects
 
-This project uses data analysis and machine learning to predict crime rates in different areas of Chicago. The aim is to analyze past crime data and build a predictive model to assist with crime prevention strategies and urban planning.
+This repository contains two machine learning projects that use real-world datasets. Each project involves end-to-end data analysis, modeling, and evaluation.
 
-## Overview
+---
 
-The notebook performs:
+## Projects Included
 
-* Data loading and preprocessing of Chicago crime dataset.
-* Exploratory Data Analysis (EDA) with visualizations.
-* Feature engineering and transformation.
-* Building and training a regression model to predict the number of crimes.
-* Evaluation of model performance.
+### 1. **Predicting Crime Rate in Chicago**
 
-## Techniques Used
+**Objective**:
+To predict the number of crimes in various areas of Chicago using historical crime data, assisting with crime prevention and resource planning.
 
-* Pandas, NumPy for data processing
-* Seaborn, Matplotlib for visualization
-* Scikit-learn for machine learning models and metrics
-* Linear Regression (or another regression algorithm depending on the notebook)
+**Key Steps**:
 
-## Sample Outputs
+* Load and preprocess Chicago crime dataset.
+* Conduct Exploratory Data Analysis (EDA) using visualizations.
+* Perform feature engineering.
+* Train a regression model (e.g., Linear Regression).
+* Evaluate the model using accuracy metrics.
+
+**Tools & Libraries**:
+
+* `pandas`, `numpy` – Data processing
+* `matplotlib`, `seaborn` – Visualization
+* `scikit-learn` – Machine learning and metrics
+
+**Sample Outputs**:
 
 * Correlation heatmaps
-* Area-wise crime trend plots
-* Model accuracy scores and predictions
+* Crime trend analysis per area
+* Model evaluation reports
+
+---
+
+### 2. **Avocado Prices Prediction**
+
+**Objective**:
+To forecast avocado prices using historical sales data, helping suppliers and retailers make better inventory and pricing decisions.
+
+**Key Steps**:
+
+* Load avocado sales dataset.
+* Perform data cleaning and feature transformation.
+* Analyze sales trends and seasonality.
+* Train a regression model to predict future prices.
+* Visualize predictions and evaluate accuracy.
+
+**Tools & Libraries**:
+
+* `pandas`, `numpy` – Data wrangling
+* `matplotlib`, `seaborn` – EDA and trend plots
+* `scikit-learn` – Regression modeling
+
+**Sample Outputs**:
+
+* Price trend plots by region
+* Feature importance charts
+* Model performance metrics (MAE, R²)
+
+---
